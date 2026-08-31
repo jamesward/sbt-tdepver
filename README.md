@@ -1,5 +1,7 @@
 # sbt-tdepver
 
+[![javadocs.dev](https://www.javadocs.dev/com.jamesward/sbt-tdepver_sbt2_3/badge.svg)](https://www.javadocs.dev/com.jamesward/sbt-tdepver_sbt2_3/latest)
+
 An sbt 2 plugin for declaring a dependency whose version should match the version selected for another dependency already present in the transitive graph.
 
 ## Setup
