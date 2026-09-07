@@ -20,7 +20,7 @@ versionScheme := Some("semver-spec")
 javacOptions ++= Seq("-source", "17", "-target", "17")
 scalacOptions ++= Seq("-release", "17", "-deprecation", "-feature", "-Werror")
 
-libraryDependencies += "org.scalameta" %% "munit" % "1.3.5" % Test
+libraryDependencies += "org.scalameta" %% "munit" % "1.3.6" % Test
 
 scriptedLaunchOpts += s"-Dplugin.version=${version.value}"
 scriptedBufferLog := false
