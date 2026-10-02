@@ -4,3 +4,6 @@ project/target/
 .idea/
 .metals/
 .bloop/
+
+# Agent Skills extracted by the build
+/.kiro/skills/
