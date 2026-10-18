@@ -25,12 +25,7 @@ libraryDependencies += "org.scalameta" %% "munit" % "1.3.6" % Test
 scriptedLaunchOpts += s"-Dplugin.version=${version.value}"
 scriptedBufferLog := false
 
-// sbt-mcp (loopback-only: its tools can execute build tasks)
-ThisBuild / mcpEnabled := true
-ThisBuild / mcpHost := "127.0.0.1"
-ThisBuild / mcpPort := 5111
-
-// SkillsJars: extract agent Skills with `./sbt extractSkillsJars`
+// SkillsJars: extract agent Skills with `./sbta extractSkillsJars`
 skillsJarsOutputDir := Some(file(".kiro/skills"))
 
 libraryDependencies += "com.jamesward" % "skills" % "0.0.14" % Skills
